@@ -38,15 +38,18 @@ export default async function ProjectsPage() {
         new Date(a.date ?? Number.POSITIVE_INFINITY).getTime(),
     );
     const imageData = [
-      '/images/1.jpeg',
-      '/images/2.jpeg',
-      '/images/3.jpeg',
-      '/images/4.jpeg',
-      '/images/5.jpeg',
-      '/images/6.jpeg',
-      '/images/7.jpeg',
-      '/images/8.jpeg',
-      '/images/9.jpeg',
+      'images/photos/0.jpeg',
+      '/images/photos/1.jpeg',
+      '/images/photos/2.jpeg',
+      '/images/photos/3.jpeg',
+      '/images/photos/4.jpeg',
+      '/images/photos/5.jpeg',
+      '/images/photos/6.jpeg',
+      '/images/photos/7.jpeg',
+      '/images/photos/8.jpeg',
+      '/images/photos/9.jpeg',
+      '/images/photos/10.jpeg',
+      '/images/photos/11.jpeg',
     ];
 
   return (
