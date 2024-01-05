@@ -1,38 +1,41 @@
-# Roshan Ramdas - Portfolio
+# Roshan Ramdas Portfolio
 
-Welcome to my portfolio! I'm Roshan Ramdas, an experienced web and mobile application developer with over 4 years of hands-on experience. Apart from coding, I have a passion for photography, and you'll find some of my favorite shots here as well.
+This repository hosts the code for Roshan Ramdas's portfolio website.
 
-## 🚀 Live Site
+## Running Locally
 
-Check out my live portfolio: [Roshan's Portfolio](https://roshan-portfolio-sepia.vercel.app/)
+1. **Clone the repository:**
 
-## 📱 Technologies and Skills
+   ```bash
+   git clone https://github.com/roshanramdas/roshan-portfolio.git
+   cd roshan-portfolio
 
-I specialize in the following technologies:
+## Create a .env file:
 
-- Frontend: React, React Native
-- Backend: Node.js, Express
-- Database: MongoDB, Firebase
-- Other: HTML, CSS, JavaScript, TypeScript
+Create a file named .env in the root of the project and add the necessary tokens or environment variables. Refer to the .env.example file for guidance.
 
-## 📸 Photography
+## Install Dependencies
 
-As a hobbyist photographer, I enjoy capturing moments. Explore my [Photography Section](https://roshan-portfolio-sepia.vercel.app/projects) to see some of my favorite shots.
+pnpm install
 
-## 📂 Project Showcase
+## Run the development server
 
-Visit the [Projects Section](https://roshan-portfolio-sepia.vercel.app/projects) to see a showcase of my work. Each project comes with a brief description and links to the live demo and GitHub repository.
+pnpm dev
 
-## 📬 Contact
+The development server should be running at http://localhost:3000.
 
-Let's connect! Feel free to reach out to me via [email](mailto:roshanramdas@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/roshanramdas/).
+## Cloning / Forking
+If you decide to clone or fork this repository to create your own portfolio, please follow these steps:
 
-## 🤝 Contributing
+## Remove Personal Information:
 
-If you have any suggestions, improvements, or questions about my projects, feel free to open an issue or submit a pull request. I appreciate your feedback!
+Remove all personal information, projects, images, etc., and replace them with your own.
+Update Environment Variables:
 
----
+Update the .env.example file with your own environment variables or configuration.
+Deploy Your Version:
 
-Thank you for visiting my portfolio. I'm excited to share my journey in the world of web and mobile development!
+Deploy your version of the portfolio to your preferred hosting service.
+Add Badges (Optional):
 
-Happy coding! 👨‍💻📸
+If your portfolio is hosted on platforms like Vercel or Netlify, consider adding deployment badges to your README.
