@@ -14,14 +14,15 @@ This repository hosts the code for Roshan Ramdas's portfolio website.
 
 Create a file named .env in the root of the project and add the necessary tokens or environment variables. Refer to the .env.example file for guidance.
 
-## Install Dependencies
-
+2. **Install Dependencies:**
+```bash
 pnpm install
+```
 
-## Run the development server
-
+3.  **Run the development server:**
+```bash
 pnpm dev
-
+```
 The development server should be running at http://localhost:3000.
 
 ## Cloning / Forking
