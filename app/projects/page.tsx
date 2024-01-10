@@ -38,7 +38,7 @@ export default async function ProjectsPage() {
         new Date(a.date ?? Number.POSITIVE_INFINITY).getTime(),
     );
     const imageData = [
-      'images/photos/0.jpeg',
+      '/images/photos/0.jpeg',
       '/images/photos/1.jpeg',
       '/images/photos/2.jpeg',
       '/images/photos/3.jpeg',
