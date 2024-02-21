@@ -15,31 +15,32 @@ export default function Resume() {
 
   const employmentExperience = [
     {
-      title: "IT Robotics and App Design Assistant",
+      title: "Web Application Developer",
       company: "ICE Robotics Canada",
-      location: "Etobicoke, Canada",
+      //location: "Etobicoke, Canada",
       date: "May 2023 – Aug 2023 (Coop)",
       responsibilities: [
-        "Interned as an IT Robotics and App Design Assistant at ICE Robotics Canada.",
-        "Managed websites and implemented payment solutions using WordPress, HTML, and JS.",
-        "Mentored students on HTML, CSS, and robotics concepts.",
+        "Led website management initiatives at ICE Robotics Canada, optimizing performance and enhancing user experience.",
+        "Spearheaded the integration of gateway payment solutions using WordPress, HTML, and JS for seamless transactions.",
+        "Revitalized Website frameworks with strategic SEO enhancements, resulting in a remarkable 30% increase in traffic.",
+        "Google Analytics metrics for continuous improvement and actionable insights.",
       ],
     },
     {
-      title: "Senior Analyst",
-      company: "Capgemini India Pvt. Ltd.",
-      location: "Pune, India",
+      title: "Mobile Application Developer",
+      company: "Capgemini",
+      //location: "Pune, India",
       date: "Feb 2019 – Dec 2021",
       responsibilities: [
-        "Developed DTO classes, redux functions, and debugged issues.",
-        "Coordinated with the team, developed the user interface, and created MapBox integration proof of concepts.",
+        "Spearheaded the creation of multiple Proof of Concepts (POCs) in Ionic Cordova to streamline asset management processes, optimizing efficiency and scalability.",
+        "Engineered POCs in React-Native for the asset team, leveraging cutting-edge technologies to develop bespoke custom components. Implemented advanced features such as Redis cache integration and voice/video call functionalities, enhancing application performance and user experience",
         "Produced custom components for code reuse and increased productivity.",
       ],
     },
     {
       title: "Associate Software Engineer",
       company: "Zenovoir Technologies",
-      location: "Pune, India",
+      //location: "Pune, India",
       date: "Dec 2017 – Feb 2019",
       responsibilities: [
         "Developed and hosted websites and web applications using JavaScript, Angular, Zend, and HTML.",

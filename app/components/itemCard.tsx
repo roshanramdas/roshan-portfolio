@@ -4,7 +4,7 @@ import React from 'react';
 interface ExperienceItemProps {
   title: string;
   company: string;
-  location: string;
+  location?: string;
   date: string;
   responsibilities: string[];
 }
