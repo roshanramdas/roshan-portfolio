@@ -4,22 +4,13 @@ import { allProjects } from "contentlayer/generated";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 import { Article } from "./article";
-import { Redis } from "@upstash/redis";
 import { Eye } from "lucide-react";
 import SwipeableCard from "../components/SwipeableCard";
-
-const redis = Redis.fromEnv();
+import { getProjectViews } from "@/lib/project-views";
 
 export const revalidate = 60;
 export default async function ProjectsPage() {
-  const views = (
-    await redis.mget<number[]>(
-      ...allProjects.map((p) => ["pageviews", "projects", p.slug].join(":")),
-    )
-  ).reduce((acc, v, i) => {
-    acc[allProjects[i].slug] = v ?? 0;
-    return acc;
-  }, {} as Record<string, number>);
+  const views = await getProjectViews(allProjects.map((project) => project.slug));
 
   const featured = allProjects.find((project) => project.slug === "ice")!;
   const top2 = allProjects.find((project) => project.slug === "credit-agricole")!;
